@@ -1,0 +1,36 @@
+/*Newsletter*/
+
+.newsletter {
+    padding: 30px 0 30px 0;
+
+    background: #171819;
+
+    .newsletter-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__title {
+            margin: 0 69px 0 0;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 30px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+        }
+
+        &__field {
+            padding: 0 16px 0 16px;
+            width: 250px;
+            height: 40px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.07px;
+            background: #FFFFFF;
+            border: 1px solid #979797;
+        }
+    }
+}

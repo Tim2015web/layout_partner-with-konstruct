@@ -1,0 +1,81 @@
+/*About, Our Story*/
+
+.about {
+    max-width: 940px;
+    margin: 56px auto 0 auto;
+
+    .about-wrapper {
+        margin: 52px 0 0 0;
+        display: flex;
+
+        .about-content {
+            width: 50%;
+            padding-right: 65px;
+
+            &__title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 27px;
+                letter-spacing: 0.1875px;
+            }
+
+            &__title>span {
+                color: #16ACE8;
+            }
+
+            &__text {
+                margin-top: 34px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 23px;
+                letter-spacing: 0.1875px;
+            }
+        }
+
+        .about-images {
+            width: 50%;
+            display: flex;
+            justify-content: right;
+            align-items: end;
+
+            &__img {
+                position: relative;
+                width: 140px;
+                height: 224px;
+                margin-left: 20px;
+
+                &-image1 {
+                    background-image: url(../img/about_1.jpg);
+                }
+
+                &-image2 {
+                    background-image: url(../img/about_2.jpg);
+                }
+
+                &-image3 {
+                    background-image: url(../img/about_3.jpg);
+                }
+            }
+
+            &__link {
+                position: absolute;
+                width: 93px;
+                left: 14px;
+                top: 15px;
+
+                font-style: italic;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 0.1875px;
+                color: #FFFFFF;
+            }
+
+            &__link:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

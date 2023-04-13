@@ -1,0 +1,55 @@
+/*Header*/
+
+.header {
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+    padding: 40px 0 72px 0;
+
+    .logo-wrap {
+        &__logotype-link {}
+
+        &__logotype-image {}
+    }
+
+    .intro {
+        margin-top: 305px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        &__main-title {
+            font-family: 'Bebas Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 72px;
+            letter-spacing: 5.70937px;
+            color: #FFFFFF;
+        }
+
+        &__main-subtitle {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+    }
+
+    .scrolldown {
+        margin-top: 221px;
+
+        &__link {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 15px;
+            letter-spacing: 3.7px;
+            color: #FFFFFF;
+        }
+    }
+}

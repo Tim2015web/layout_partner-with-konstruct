@@ -1,0 +1,103 @@
+/*Tabletstyle*/
+
+.nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .about-wrapper {
+
+        .about-content {
+            padding-right: 10px;
+
+            &__title {
+                font-size: 18px;
+            }
+
+            &__text {
+                font-size: 12px;
+            }
+        }
+
+        .about-images {
+            &__img {
+                margin-left: 10px;
+            }
+
+            &__link {
+                width: 63px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.services {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .services-header {
+        &__text {
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+
+        .title-wrapper__title-left {
+            text-align: left;
+        }
+    }
+
+    .service-wrapper {
+        .service {
+            height: 380px;
+
+            &__title {
+                font-size: 14px;
+            }
+
+            &__text {
+                font-size: 12px;
+            }
+        }
+    }
+
+}
+
+.get-in-touch {
+    margin-top: 20px;
+}
+
+.newsletter {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer {
+
+    .footer-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-wrap: wrap;
+
+        .company {
+            width: 45%;
+            margin-right: 5%;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            width: 45%;
+            margin-right: 5%;
+            margin-bottom: 20px;
+        }
+
+        .contact-us {
+            width: 45%;
+            margin-right: 5%;
+        }
+    }
+}

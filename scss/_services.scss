@@ -1,0 +1,59 @@
+/*Services, Our Capabilities*/
+
+.services {
+    max-width: 940px;
+    margin: 116px auto 0 auto;
+
+    .services-header {
+        display: flex;
+        justify-content: space-between;
+
+        &__text {
+            margin: 0 0 0 120px;
+            width: 405px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 19px;
+            letter-spacing: 0.2px;
+        }
+
+        .title-wrapper__title-left::after {
+            margin: 10px 0 0 0;
+        }
+    }
+
+    .service-wrapper {
+        margin: 76px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+
+        .service {
+            width: 295px;
+            height: 330px;
+            padding: 38px 22px 40px 22px;
+            border: 1px solid #E6E6E6;
+
+            &__image {}
+
+            &__title {
+                margin: 26px 0 0 0;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.426667px;
+            }
+
+            &__text {
+                margin: 13px 0 0 0;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 23px;
+                letter-spacing: 0.1875px;
+            }
+        }
+    }
+}

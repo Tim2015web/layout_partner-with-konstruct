@@ -1,0 +1,48 @@
+/*Common style*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans";
+    color: #48555B;
+}
+
+.title-wrapper__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2.30625px;
+}
+
+.title-wrapper__title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border: 1px solid #00A4E5;
+    margin: 10px auto 0 auto;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.title-small {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
