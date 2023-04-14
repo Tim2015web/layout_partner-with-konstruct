@@ -139,7 +139,7 @@ body {
 /*Header*/
 .header {
   width: 100%;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -280,13 +280,13 @@ body {
   margin-left: 20px;
 }
 .about .about-wrapper .about-images__img-image1 {
-  background-image: url(../img/about_1.jpg);
+  background-image: url(../img/about_1.webp);
 }
 .about .about-wrapper .about-images__img-image2 {
-  background-image: url(../img/about_2.jpg);
+  background-image: url(../img/about_2.webp);
 }
 .about .about-wrapper .about-images__img-image3 {
-  background-image: url(../img/about_3.jpg);
+  background-image: url(../img/about_3.webp);
 }
 .about .about-wrapper .about-images__link {
   position: absolute;
@@ -355,7 +355,7 @@ body {
 
 /*Get in touch*/
 .get-in-touch {
-  background-image: url(../img/get-in-touch_bg.jpg);
+  background-image: url(../img/get-in-touch_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -496,6 +496,9 @@ body {
 
 @media (min-width: 641px) and (max-width: 1200px) {
   /*Tabletstyle*/
+  .header {
+    background-image: url(../img/background_tablet.webp);
+  }
   .nav {
     padding-left: 10px;
     padding-right: 10px;
@@ -541,6 +544,7 @@ body {
     font-size: 12px;
   }
   .get-in-touch {
+    background-image: url(../img/get-in-touch_bg_tablet.webp);
     margin-top: 20px;
   }
   .newsletter {
@@ -569,6 +573,9 @@ body {
 }
 @media (max-width: 640px) {
   /*Mobilestyle*/
+  .header {
+    background-image: url(../img/background_mobile.webp);
+  }
   .header .intro {
     margin-top: 160px;
   }
@@ -653,6 +660,7 @@ body {
     font-size: 12px;
   }
   .get-in-touch {
+    background-image: url(../img/get-in-touch_bg_mobile.webp);
     margin-top: 20px;
   }
   .get-in-touch__title {
